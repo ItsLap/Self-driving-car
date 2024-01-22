@@ -29,6 +29,13 @@ const traffic=[
     new Car(road.getLaneCenter(1),-500,30,50,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(1),-700,30,50,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(2),-700,30,50,"DUMMY",2,getRandomColor()),
+        new Car(road.getLaneCenter(1),-100,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(0),-900,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(2),-900,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(0),-1100,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(1),-1100,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(1),-1300,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(2),-1300,30,50,"DUMMY",2,getRandomColor()),
 ];
 
 animate();
